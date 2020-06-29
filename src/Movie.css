@@ -29,7 +29,7 @@
 }
 
 .Movie .Movie_Genres {
-  display: flex;
+  display: inline-flexbox;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }

@@ -6,10 +6,10 @@ import LinesEllipsis from "react-lines-ellipsis";
 function Movie({ title, poster, genres, synopsis }) {
   return (
     <div className="Movie">
-      <div className="Movie_Colums">
+      <div className="Movie_Column">
         <MoviePoster poster={poster} alt={title} />
       </div>
-      <div className="Movie_Colums">
+      <div className="Movie_Column">
         <h1>{title}</h1>
 
         <div className="Movie_Genres">
